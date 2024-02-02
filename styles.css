@@ -39,7 +39,7 @@ input {
 .navigation {
     padding: 6px;
     height: 48px;
-    align-items: flex-end;   
+    margin-left: auto;  
 }
 
 .adv-navigation {
