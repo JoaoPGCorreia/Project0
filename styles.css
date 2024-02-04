@@ -30,21 +30,27 @@ div {
     justify-content: center;
 }
 
+#button:hover {
+    cursor: pointer;
+}
+
 input {
     margin: 5px;
     height: 30px;
     width: 120px;
 }
 
-.navigation {
+.navigation, .adv-navigation {
     padding: 6px;
     height: 48px;
+}
+
+.navigation {
     align-items: flex-end;  
 }
 
+
 .adv-navigation {
-    padding: 6px;
-    height: 48px;
     flex-direction: row; 
 }
 
@@ -59,7 +65,12 @@ input {
 }
 
 a {
+    color: rgba(0,0,0,.87);
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .image {
@@ -106,6 +117,10 @@ a {
     border: #3079ed;
     background-color: #4d90fe;
     color: white;
+}
+
+#adv-button:hover { 
+    cursor: pointer;
 }
 
 p { 
